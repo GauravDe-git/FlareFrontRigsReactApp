@@ -1,0 +1,21 @@
+.hero-container{
+    margin: 0 auto;
+    padding-top: 2rem;
+    width: 85%;
+    max-width: 100rem;
+}
+
+.img{
+    height: 40rem;
+    opacity: 92%;
+}
+
+.hero-text{
+    position: relative;
+    left: 13rem;
+    bottom: 20rem;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-family: Consolas;
+}
+
