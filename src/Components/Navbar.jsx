@@ -17,7 +17,7 @@ export default function Navbar() {
         <nav className="nav-aside">
           <ul className="nav-ul">
             <li>
-              <a href="/">
+              <Link to="Login/">
                 <button
                   type="button"
                   className="btn btn-primary"
@@ -25,7 +25,7 @@ export default function Navbar() {
                 >
                   Login
                 </button>
-              </a>
+              </Link>
             </li>
             <li>
               <div className="badge">
