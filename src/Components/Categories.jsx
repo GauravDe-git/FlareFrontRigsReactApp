@@ -10,7 +10,7 @@ export default function Categories() {
     <div className='container'>
       {
           categories.map(item=>(
-              <CategoryItem item= {item}/>
+              <CategoryItem item= {item} key={item._id}/>
           ))
       }
     </div>

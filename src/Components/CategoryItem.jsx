@@ -1,5 +1,6 @@
 import React from 'react'
 import './Categories.css'
+import { Link } from 'react-router-dom'
 
 const CategoryItem = ({item}) => {
     return(
@@ -7,7 +8,7 @@ const CategoryItem = ({item}) => {
             <img src={item.img} alt="" className="Image" />
             <div className="info">
                 <h1 className="categoryName">{item.categoryName}</h1>
-                <button className='btn-primary'>SHOP NOW!</button>
+                <Link to= "ProductListing/"><button className='btn-primary'>SHOP NOW!</button></Link> 
             </div>
         </div>
     )
