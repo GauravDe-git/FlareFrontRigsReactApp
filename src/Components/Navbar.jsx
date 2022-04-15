@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -27,7 +28,6 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/"></a>
               <div className="badge">
                 <a href="/">
                   <i className="fa-regular fa-heart" />
@@ -36,12 +36,11 @@ export default function Navbar() {
               </div>
             </li>
             <li>
-              <a href="/"></a>
               <div className="badge">
-                <a href="/">
+                <Link to = "Cart/">
                   <i className="fa-solid fa-cart-shopping" />
                   <div className="badge-count">0</div>
-                </a>
+                </Link>
               </div>
             </li>
           </ul>

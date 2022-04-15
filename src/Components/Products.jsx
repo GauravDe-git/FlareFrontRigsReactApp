@@ -3,6 +3,7 @@ import { products } from '../backend/db/products'
 import Product from './Product'
 import './products.css'
 
+
 const Products = () => {
     return (
         <div className='products-container'>
@@ -15,5 +16,5 @@ const Products = () => {
     )
 }
 
-export default Products
+export default Products 
 
